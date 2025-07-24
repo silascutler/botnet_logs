@@ -16,15 +16,16 @@
 
 DDoSia is a participatory distributed denial of service (DDoS) tool. Instead of leveraging a botnet of compromised systems, DDoSia recruits individuals of voluntarily run their DDoS client, which receives tasking from a central service. Operated by NoName057(16), DDoSia was heavily used for DDoS attacks against Ukraine, NATO and European countries. 
 
-This repository contains archives of DDoSia attacks from 2023 until law enforcement disruption in 2025.
+This repository contains archives of DDoSia attacks issued from those central control servers from 2023 until the law enforcement disruption in 2025.
 
 ## Reporting:
 * https://therecord.media/ddosia-pro-russian-hackers-upgrades
 * https://www.recordedfuture.com/research/anatomy-of-ddosia
 * https://euneighbourseast.eu/news/latest-news/global-operation-targets-noname05716-pro-russian-cybercrime-network/
 
-
 ## Folder Structure
+Data is stored in two formats: raw output from control servers and as a structured TinyDB database.  Data is typically sorted by control server.   
+
 part1
     - Timeframe: 8 Feb 2023 - 7 Dec 2023
 
